@@ -19,7 +19,7 @@ const Menu = () => (
       </li>
       <li>
         <Link href="https://github.com/shabrina12">
-          <FaGithub className='icon' size={42} />
+          <FaGithub className='icon' color='black' size={32} />
         </Link>
       </li>
     </ul> 
@@ -39,7 +39,6 @@ const Navbar = () => {
   };
 
   useEffect(() => {
-    // window is accessible here.
     window.addEventListener("scroll", changeColor);
   }, []);
 
@@ -48,7 +47,7 @@ const Navbar = () => {
       
       <div className='navbar-links'>
         <div className='navbar-links_logo'>
-          <h4>Portfolio</h4>
+          <h4>Put.</h4>
         </div>
         <div className='navbar-links_social'>
           <Menu />

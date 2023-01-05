@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import {BiLink} from "react-icons/bi"
-import { FaGithub, FaLink } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 
 const WorkCard = (props) => {
   return (

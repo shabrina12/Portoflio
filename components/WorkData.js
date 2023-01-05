@@ -23,7 +23,7 @@ const projectData = [
         title: "Vangia Cosmetics Front End Web",
         text: "HTML CSS JavaScript ReactJS",
         view: "https://vangia-front-end-web-git-main-shabrina12.vercel.app/",
-        source: "https://github.com/shabrina12/Vangia-Front-End-Landing-Page"
+        source: "https://github.com/shabrina12/Vangia-Front-End-Web"
     },
     {
         img: beumusic,
@@ -60,27 +60,27 @@ const projectData = [
         view: "https://cerulean-pastelito-7b8f60.netlify.app/",
         source: "https://github.com/shabrina12/Easybank-Landing-Page"
     },
-    {
-        img: loopStudio,
-        title: "Loop Studios Landing Page",
-        text: "HTML CSS Bootstrap",
-        view: "https://shabrina12.github.io/frontend-loopstudios-landing-page/",
-        source: "https://github.com/shabrina12/frontend-loopstudios-landing-page"
-    },
-    {
-        img: huddle,
-        title: "Huddle Landing Page",
-        text: "HTML CSS JavaScript ReactJS",
-        view: "https://melodious-daffodil-d27254.netlify.app/",
-        source: "https://github.com/shabrina12/Hiddle-Landing-Page"
-    },
-    {
-        img: tindog2,
-        title: "Tindog Page",
-        text: "HTML CSS",
-        view: "https://shabrina12.github.io/Tindog-front-end/",
-        source: "https://github.com/shabrina12/Tindog-front-end"
-    }
+    // {
+    //     img: loopStudio,
+    //     title: "Loop Studios Landing Page",
+    //     text: "HTML CSS Bootstrap",
+    //     view: "https://shabrina12.github.io/frontend-loopstudios-landing-page/",
+    //     source: "https://github.com/shabrina12/frontend-loopstudios-landing-page"
+    // },
+    // {
+    //     img: huddle,
+    //     title: "Huddle Landing Page",
+    //     text: "HTML CSS JavaScript ReactJS",
+    //     view: "https://melodious-daffodil-d27254.netlify.app/",
+    //     source: "https://github.com/shabrina12/Hiddle-Landing-Page"
+    // },
+    // {
+    //     img: tindog2,
+    //     title: "Tindog Page",
+    //     text: "HTML CSS",
+    //     view: "https://shabrina12.github.io/Tindog-front-end/",
+    //     source: "https://github.com/shabrina12/Tindog-front-end"
+    // }
 ];
 
 export default projectData;
