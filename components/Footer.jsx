@@ -7,10 +7,6 @@ const Footer = () => {
     <div className='footer'>
         <p>Shabrina Putri ⏤ 2023</p>
         <div className='footer-links'>
-          <Link href="https://www.instagram.com/shabputri_/">
-            <p>Instagram</p>
-            {/* <FaInstagram className='icon' color='black' size={42} /> */}
-          </Link>
           <Link href="https://www.linkedin.com/in/shabrina-putri-4705491a5/">
             <p>Linkedin</p>
             {/* <FaLinkedin className='icon' color='black' size={42} /> */}

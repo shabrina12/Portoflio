@@ -47,7 +47,9 @@ const Navbar = () => {
       
       <div className='navbar-links'>
         <div className='navbar-links_logo'>
-          <h4>Put.</h4>
+          <Link href='/'>
+            <h4>Put.</h4>
+          </Link>
         </div>
         <div className='navbar-links_social'>
           <Menu />

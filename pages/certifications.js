@@ -1,11 +1,8 @@
 import React from 'react'
-import { Navbar } from '../components'
 import CertificationsData from '../components/CertificationsData'
 
 const certifications = () => {
   return (
-    <>
-    <Navbar />
     <div className='certiciation-container section__padding'>
         <h1>Certifications</h1>
         {CertificationsData.map((value, index) => {
@@ -34,7 +31,6 @@ const certifications = () => {
           )
         })}
     </div>
-    </>
   )
 }
 

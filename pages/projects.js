@@ -1,13 +1,10 @@
 import React from 'react';
-import { Navbar } from '../components';
 import WorkDetailCard from '../components/WorkDetailCard';
 import projectData from '../components/WorkData';
 
 const Projects = () => {
   return (
-    // <>
-    // <Navbar />
-    <section className='projects-section-wrapper'>
+    <section className='projects-section-wrapper section__padding'>
         <div className='project-heading'>
           <h1>PROJECTS</h1>
           <h2 className='subtitle'>All websites i created are responsive</h2>
@@ -20,6 +17,7 @@ const Projects = () => {
                 img={value.img} 
                 title={value.title} 
                 text={value.text} 
+                desc={value.desc}
                 view={value.view}
                 source={value.source}
               />
@@ -27,7 +25,6 @@ const Projects = () => {
           })}
         </div>
     </section>
-    // </>
   )
 }
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
-import {BiLink} from "react-icons/bi"
 import { FaGithub } from "react-icons/fa";
+import {BsArrowUpRight} from 'react-icons/bs'
 
 const WorkDetailCard = (props) => {
   return (
@@ -9,15 +9,15 @@ const WorkDetailCard = (props) => {
         <div className='project-details'>
             <div className='project-desc'>
                 <h2 className='title'>{props.title}</h2>
-                <p className='tech'>{props.text}</p> 
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                <p className='text'>{props.text}</p> 
+                <p className='desc'>{props.desc}</p>
             </div>
             <div className='project-url'>
                 <a href={props.view} target="_blank" rel="noopener noreferrer">
-                    <span>More shots from this project </span>
+                    <span>More shots from this project <BsArrowUpRight size={15} /></span>
                 </a>
                 <a href={props.source} target="_blank" rel="noopener noreferrer">
-                    <FaGithub className='project-repo' size={24} />
+                    <FaGithub className='project-repo' size={28} />
                 </a>
             </div>
         </div>

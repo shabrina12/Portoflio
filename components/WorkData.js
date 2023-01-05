@@ -15,6 +15,7 @@ const projectData = [
         img: dine,
         title: "Full Stack E-commerce Clothing Web",
         text: "HTML CSS NextJS Sanity Stripe",
+        desc: 'This project is a multi page full stack e-commerce website built with Next JS. With shopping cart functionality and payment gateway using stripe API',
         view: "https://full-stack-ecommerce-clothing-web.vercel.app/",
         source: "https://github.com/shabrina12/FullStack-Ecommerce-Clothing-Web"
     },
@@ -22,6 +23,7 @@ const projectData = [
         img: vangia,
         title: "Vangia Cosmetics Front End Web",
         text: "HTML CSS JavaScript ReactJS",
+        desc: 'This project is a multiple page front end web for Vangia Cosmetics built React JS framework. With testimonials slider (carousel) using swiper js library and the function to filter and show products by category',
         view: "https://vangia-front-end-web-git-main-shabrina12.vercel.app/",
         source: "https://github.com/shabrina12/Vangia-Front-End-Web"
     },
@@ -29,6 +31,7 @@ const projectData = [
         img: beumusic,
         title: "BEU Music Front End Web",
         text: "HTML CSS JavaScript ReactJS",
+        desc: 'This project is a single page front end web for BEU Music built with React JS framework. With the function to filter and show albums by genres',
         view: "https://beu-music-front-end-web.vercel.app/",
         source: "https://github.com/shabrina12/BEU-Music-Front-End-Landing-Page"
     },
@@ -36,6 +39,7 @@ const projectData = [
         img: learnit,
         title: "Learn It Course Front End Web",
         text: "HTML CSS JavaScript ReactJS",
+        desc: 'This project is a single page front end web for Learn It built with React JS framework. With the function to filter and show courses by category and a testimonial slider (carousel) using react-slick library',
         view: "https://learn-it-front-end-webpage.vercel.app/",
         source: "https://github.com/shabrina12/LearnIt-Front-End-Landing-Page"
     },
@@ -47,18 +51,20 @@ const projectData = [
     //     source: "https://github.com/shabrina12/daily-journal-web"
     // },
     {
-        img: insurePage,
-        title: "Insure Landing Page",
-        text:  "HTML CSS",
-        view: "https://shabrina12.github.io/Insure-Landing-Page---FrontEnd-Mentor-Challenge/",
-        source: "https://github.com/shabrina12/Insure-Landing-Page---FrontEnd-Mentor-Challenge"
-    },
-    {
         img: easybank,
         title: "Easy Bank Landing Page",
         text: "HTML CSS JavaScript ReactJS",
+        desc: 'This project is a single page front end web built with React JS framework',
         view: "https://cerulean-pastelito-7b8f60.netlify.app/",
         source: "https://github.com/shabrina12/Easybank-Landing-Page"
+    },
+    {
+        img: insurePage,
+        title: "Insure Landing Page",
+        text:  "HTML CSS",
+        desc: 'This project is a single page front end web using HTML and CSS',
+        view: "https://shabrina12.github.io/Insure-Landing-Page---FrontEnd-Mentor-Challenge/",
+        source: "https://github.com/shabrina12/Insure-Landing-Page---FrontEnd-Mentor-Challenge"
     },
     // {
     //     img: loopStudio,
