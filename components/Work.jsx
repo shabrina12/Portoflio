@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 import WorkCard from './WorkCard';
 import projectData from './WorkData';
@@ -23,6 +24,9 @@ const Work = () => {
           )
         })}
       </div>
+      <Link href='/projects'>
+        <button className='project-btn' type='button'>See More</button>
+      </Link>
     </div>
   )
 }

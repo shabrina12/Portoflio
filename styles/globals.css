@@ -213,7 +213,26 @@ header {
 .project-links a:hover {
   color: #5E3BEE;
 }
-
+.project-btn {
+  border: none;
+  padding: 1rem 4rem;
+  border-radius: 30px;
+  background-color: #5E3BEE;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  color: white;
+}
+.project-img:hover,
+.project-btn:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+.project-btn:hover {
+  cursor: pointer;
+  background: rgb(94,59,238);
+  background: linear-gradient(90deg, rgba(94,59,238,1) 0%, rgba(198,225,236,1) 100%);
+}
 
 /*------------------------ WORK DETAIL CARD -----------------------*/
 .projects-section-wrapper {
