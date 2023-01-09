@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import {RiMenu3Line, RiCloseLine } from 'react-icons/ri';
-import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 import Link from 'next/link';
 
 // BEM -> Block Element Modifier 
