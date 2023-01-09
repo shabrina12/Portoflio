@@ -3,7 +3,7 @@ import CertificationsData from '../data/CertificationsData'
 
 const certifications = () => {
   return (
-    <div className='certiciation-container section__padding'>
+    <div className='certiciation-container'>
         <h1>Certifications</h1>
         {CertificationsData.map((value, index) => {
           return (
@@ -23,7 +23,7 @@ const certifications = () => {
                     <h3>Credential ID:</h3>
                     <p>{value.id}</p>
                     <h3>Url:</h3>
-                    <a href={value.url} target="_blank" rel="noreferrer">
+                    <a className='link-sertif' href={value.url} target="_blank" rel="noreferrer">
                         <p>{value.url}</p>  
                     </a>
                 </div>

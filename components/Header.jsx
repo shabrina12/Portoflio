@@ -4,7 +4,7 @@ import profile from '../public/images/profile.png'
 
 const Header = () => {
   return (
-    <header className='section__padding'>
+    <header>
       <div className='header'>
         <div className='content'>
           <h1>Nice to Meet You!</h1>

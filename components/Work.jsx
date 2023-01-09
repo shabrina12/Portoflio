@@ -5,7 +5,7 @@ import projectData from '../data/WorkData';
 
 const Work = () => {
   return (
-    <div className='project-wrapper section__padding'>
+    <div className='project-wrapper'>
       <div className='project-heading'>
         <h1>My Latest Work</h1>
         <h2>All Websites I Created Are Responsive</h2>

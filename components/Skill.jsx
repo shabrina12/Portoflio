@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 const Skill = () => {
   return (
-    <div className='skill section__padding'>
+    <div className='skill'>
       <div className='skill-title'>
         <h1>My Tech Stack</h1>
         <p>Technologies i've been working with recently</p>

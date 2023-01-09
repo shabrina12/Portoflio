@@ -4,7 +4,7 @@ import projectData from '../data/WorkData';
 
 const Projects = () => {
   return (
-    <section className='projects-section-wrapper section__padding'>
+    <section className='projects-section-wrapper'>
         <div className='project-heading'>
           <h1>PROJECTS</h1>
           <h2 className='subtitle'>All websites i created are responsive</h2>

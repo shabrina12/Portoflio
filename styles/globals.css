@@ -14,7 +14,9 @@ h1, h2, h3, h4, p, a {
   text-decoration: none;
   color: black;
 }
-.section__padding {
+header, .navbar, .skill,
+.project-wrapper, .certiciation-container, 
+.projects-section-wrapper, .section__padding {
   padding: 8rem;
 }
 .section__margin {
@@ -108,8 +110,8 @@ header {
   align-items: flex-end;
 }
 .profile-card img {
-  width: auto;
-  height: 150%;
+  width: 70%;
+  height: auto;
 }
 .header .content h1 {
   font-size: 3.3rem;
@@ -320,33 +322,6 @@ header {
 .footer-links p:hover {
   color: #5E3BEE;
 }
-/* .icon {
-  padding: 10px;
-}
-.icon:hover {
-  cursor: pointer;
-  color: yellow;
-} */
-/* .custom-shape-divider-bottom-1672721337 {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-  z-index: -1;
-}
-
-.custom-shape-divider-bottom-1672721337 svg {
-  position: relative;
-  display: block;
-  width: calc(192% + 1.3px);
-  height: 356px;
-}
-
-.custom-shape-divider-bottom-1672721337 .shape-fill {
-  fill: #F5FCFF;
-} */
 
 /*-------------------- CERTIFICATIONS -----------------*/
 .certification-card {
@@ -374,4 +349,75 @@ header {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
+}
+
+@media screen and (max-width: 1000px) {
+  header, .navbar, .skill, 
+  .project-wrapper, .footer,
+  .certiciation-container,
+  .projects-section-wrapper {
+    padding: 4rem;
+  }
+  header {
+    height: 100%;
+  }
+  .header .content h1 {
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+  }
+  .project-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .certiciation-container h1,
+  .project-heading {
+    margin-top: 4rem;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .header {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .header .content h1 {
+    font-size: 3.3rem;
+    letter-spacing: 4px;
+  }
+  .skill-content {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .certification-name {
+    gap: 1rem;
+  }
+  .projects-section-wrapper {
+    gap: 4rem;
+  }
+  .project-detail-card {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  header, .navbar, .skill,
+  .project-wrapper, .footer,
+  .certiciation-container, .projects-section-wrapper {
+    padding: 4rem 2rem;
+  }
+  .profile-container {
+    padding: 0;
+  }
+  .skill-content {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .project-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .footer {
+    flex-direction: column;
+    align-items: center;
+  }
+  .certification-name {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }

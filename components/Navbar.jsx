@@ -43,7 +43,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className={color ? 'navbar-bg navbar section__padding' : 'navbar section__padding'}>
+    <div className={color ? 'navbar-bg navbar' : 'navbar'}>
       
       <div className='navbar-links'>
         <div className='navbar-links_logo'>

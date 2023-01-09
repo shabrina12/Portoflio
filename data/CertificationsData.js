@@ -5,7 +5,7 @@ const CertificationsData = [
         date: 'Sept 2022 - Nov 2022',
         desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
         id: 'UC-cac43c75-ba83-4a4a-80d0-b8f01c7f8d56',
-        url: 'https://drive.google.com/file/d/1Zb2RhiIGIXxx7U5Y2NzhePdSf5L6f4v0/view?usp=sharing'
+        url: 'https://bit.ly/webdev-udemy-sertif'
     },
     {
         name: 'Big Data using Python',
@@ -13,7 +13,7 @@ const CertificationsData = [
         date: 'July 2022 - August 2022',
         desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
         id: 'FGA/2022/2900/149290040100-115',
-        url: 'https://drive.google.com/file/d/1q9AT7mxAVUyEYO9FwSdyTaHqnl8J5Hnt/view?usp=sharing'
+        url: 'https://bit.ly/big-data-python'
     },
     {
         name: 'Back End Developer',
@@ -21,7 +21,7 @@ const CertificationsData = [
         date: 'March 2022 - May 2022',
         desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
         id: 'FGA/2022/1747/149174742100-510',
-        url: 'https://drive.google.com/file/d/13pxxUM2QOxaiYzbhnGo-uea9f7q17L45/view?usp=sharing'
+        url: 'https://bit.ly/back-end-fga'
     },
     {
         name: 'Cloud Computing',
@@ -29,7 +29,7 @@ const CertificationsData = [
         date: 'Feb 2021 - July 2021',
         desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
         id: 'FGA/2022/1747/149174742100-510',
-        url: 'https://drive.google.com/file/d/13pxxUM2QOxaiYzbhnGo-uea9f7q17L45/view?usp=sharing'
+        url: 'https://bit.ly/cloud-computing-bangkit'
     }
 ]
 
