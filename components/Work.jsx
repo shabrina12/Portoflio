@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
 import WorkCard from './WorkCard';
-import projectData from './WorkData';
+import projectData from '../data/WorkData';
 
 const Work = () => {
   return (
@@ -11,7 +11,7 @@ const Work = () => {
         <h2>All Websites I Created Are Responsive</h2>
       </div>
       <div className='project-container'>
-        {projectData.map((value, index) => {
+        {projectData.slice(0, 6).map((value, index) => {
           return (
             <WorkCard 
               key={index} 

@@ -18,7 +18,7 @@ const Menu = () => (
         </Link>
       </li>
       <li>
-        <Link href="https://github.com/shabrina12">
+        <Link href="https://github.com/shabrina12" target="_blank" rel="noopener noreferrer">
           <FaGithub className='icon' color='black' size={32} />
         </Link>
       </li>

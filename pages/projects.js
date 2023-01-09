@@ -1,6 +1,6 @@
 import React from 'react';
 import WorkDetailCard from '../components/WorkDetailCard';
-import projectData from '../components/WorkData';
+import projectData from '../data/WorkData';
 
 const Projects = () => {
   return (

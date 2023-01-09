@@ -1,5 +1,5 @@
 import React from 'react'
-import CertificationsData from '../components/CertificationsData'
+import CertificationsData from '../data/CertificationsData'
 
 const certifications = () => {
   return (
@@ -18,8 +18,8 @@ const certifications = () => {
                     </div>
                 </div>
                 <div className='certification-details'>
-                    <h3>Description:</h3>
-                    <p>{value.desc}</p>
+                    {/* <h3>Description:</h3>
+                    <p>{value.desc}</p> */}
                     <h3>Credential ID:</h3>
                     <p>{value.id}</p>
                     <h3>Url:</h3>

@@ -8,9 +8,17 @@ import vangia from "../public/images/header-vangia.png";
 import dine from "../public/images/header-dinemarket.png";
 import dailyjurnal from "../public/images/dailyjournal.png"
 import easybank from "../public/images/header-easybank.png";
-import huddle from "../public/images/header-huddle.png";
+import weather from "../public/images/weather-app.png"
 
 const projectData = [
+    {
+        img: weather,
+        title: "Weather App",
+        text: "HTML CSS ReactJS OpenWeatherAPI GeoDB Cities API",
+        desc: 'This project is a weather app built with React JS framework. With forecast details 7 days from current date.',
+        view: "https://weather-app-reactjs-ten.vercel.app/",
+        source: "https://github.com/shabrina12/weather-app-reactjs"
+    },
     {
         img: dine,
         title: "Full Stack E-commerce Clothing Web",
