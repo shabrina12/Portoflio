@@ -9,6 +9,7 @@ import dine from "../public/images/header-dinemarket.png";
 import dailyjurnal from "../public/images/dailyjournal.png"
 import easybank from "../public/images/header-easybank.png";
 import weather from "../public/images/weather-app.png"
+import ezstay from "../public/images/ezstay.png"
 
 const projectData = [
     {
@@ -31,7 +32,7 @@ const projectData = [
         img: vangia,
         title: "Vangia Cosmetics Front End Web",
         text: "HTML CSS JavaScript ReactJS",
-        desc: 'This project is a multiple page front end web for Vangia Cosmetics built React JS framework. With testimonials slider (carousel) using swiper js library and the function to filter and show products by category',
+        desc: 'This project is a multiple page front end web for Vangia Cosmetics built with React JS framework. With testimonials slider (carousel) using swiper js library and the function to filter and show products by category',
         view: "https://vangia-front-end-web-git-main-shabrina12.vercel.app/",
         source: "https://github.com/shabrina12/Vangia-Front-End-Web"
     },
@@ -50,6 +51,14 @@ const projectData = [
         desc: 'This project is a single page front end web for Learn It built with React JS framework. With the function to filter and show courses by category and a testimonial slider (carousel) using react-slick library',
         view: "https://learn-it-front-end-webpage.vercel.app/",
         source: "https://github.com/shabrina12/LearnIt-Front-End-Landing-Page"
+    },
+    {
+        img: ezstay,
+        title: "EzStay Front End Web",
+        text: "HTML CSS Bootstrap",
+        desc: 'This project is a landing page front end web for EzStay built with Bootstrap.',
+        view: "https://polite-meringue-03be1c.netlify.app/",
+        source: "https://github.com/shabrina12/EzStay-Landing-Page"
     },
     // {
     //     img: dailyjurnal,
