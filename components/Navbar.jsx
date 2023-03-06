@@ -8,6 +8,11 @@ const Menu = () => (
   <>
     <ul>
       <li>
+        <Link href='/experiences'>
+          Work Experiences
+        </Link>
+      </li>
+      <li>
         <Link href='/certifications'>
           Certifications
         </Link>
