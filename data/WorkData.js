@@ -10,8 +10,17 @@ import dailyjurnal from "../public/images/dailyjournal.png"
 import easybank from "../public/images/header-easybank.png";
 import weather from "../public/images/weather-app.png"
 import ezstay from "../public/images/ezstay.png"
+import mofa from "../public/images/mofa-header.png"
 
 const projectData = [
+    {
+        img: mofa,
+        title: "Mofa header page",
+        text: "HTML CSS ReactJS",
+        desc: 'This project is a single page landing page built with React JS framework. *This page is not yet responsive',
+        view: "https://mofa-home-page.vercel.app/",
+        source: "https://github.com/shabrina12/Mofa-home-page"
+    },
     {
         img: weather,
         title: "Weather App",
