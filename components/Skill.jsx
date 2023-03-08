@@ -18,14 +18,14 @@ const Skill = () => {
         <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg" width="70" height="70"  alt="JavaScript" /></a>
         <a href="https://getbootstrap.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/bootstrap-colored.svg" width="70" height="70" alt="Bootstrap" /></a>
         <a href="https://reactjs.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/react-colored.svg" width="70" height="70" alt="React" /></a>
+        <a href="https://vuejs.org/" target="_blank" rel="noreferrer">
+          <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/2367px-Vue.js_Logo_2.svg.png' width="70" height="70" alt='vue'/>
+        </a>
         <a href="https://nextjs.org/docs" target="_blank" rel="noreferrer"><img src="https://cdn.cdnlogo.com/logos/n/80/next-js.svg" width="70" height="70" alt="NextJs" /></a>
         <a href="https://nodejs.org/en/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nodejs-colored.svg" width="70" height="70" alt="NodeJS" /></a>
         {/* <a href="https://expressjs.com/" target="_blank" rel="noreferrer"><img src="https://www.nextontop.com/assets/img/services/web/expressjs.svg" width="110" height="110" alt="Express" /></a> */}
         <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/mongodb-colored.svg" width="70" height="70" alt="MongoDB" /></a>
         <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/mysql-colored.svg" width="70" height="70" alt="MySQL" /></a>
-        <a href="https://www.mysql.com/" target="_blank" rel="noreferrer">
-          <SiVisualstudiocode size={70} color='#0078d7' />
-        </a>
         {/* <Link href="https://github.com/shabrina12">
           <FaGithub color='black' size={70} />
         </Link> */}
