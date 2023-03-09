@@ -84,14 +84,14 @@ const projectData = [
         view: "https://cerulean-pastelito-7b8f60.netlify.app/",
         source: "https://github.com/shabrina12/Easybank-Landing-Page"
     },
-    {
-        img: insurePage,
-        title: "Insure Landing Page",
-        text:  "HTML CSS",
-        desc: 'This project is a single page front end web using HTML and CSS',
-        view: "https://shabrina12.github.io/Insure-Landing-Page---FrontEnd-Mentor-Challenge/",
-        source: "https://github.com/shabrina12/Insure-Landing-Page---FrontEnd-Mentor-Challenge"
-    },
+    // {
+    //     img: insurePage,
+    //     title: "Insure Landing Page",
+    //     text:  "HTML CSS",
+    //     desc: 'This project is a single page front end web using HTML and CSS',
+    //     view: "https://shabrina12.github.io/Insure-Landing-Page---FrontEnd-Mentor-Challenge/",
+    //     source: "https://github.com/shabrina12/Insure-Landing-Page---FrontEnd-Mentor-Challenge"
+    // },
     // {
     //     img: loopStudio,
     //     title: "Loop Studios Landing Page",
